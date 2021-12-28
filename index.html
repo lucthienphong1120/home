@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charser="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style.css">
+        <link rel="shortcut icon" href="./images/icon-logo.svg">
+        <title>Lục Thiên Phong</title>
+    </head>
+    <body>
+        <section class="showcase">
+            <header>
+                <h2 class="logo">Lục Thiên Phong</h2>
+                <div class="toggle"></div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="https://ltp110.tk">Website</a></li>
+                        <li><a href="https://www.crf-blogger.gq">Blog</a></li>
+                        <li><a href="https://www.facebook.com/profile.php?id=100045406261491">Facebook</a></li>
+                        <li><a href="https://github.com/lucthienphong1120">Github</a></li>
+                        <li><a href="https://www.youtube.com/codingreshapefuture">Youtube</a></li>
+                        <li><a href="https://www.linkedin.com/in/ltp1120/">Linkedin</a></li>
+                    </ul>
+                </div>
+            </header>
+
+            <video src="./Videos/bg_video.mp4" muted loop autoplay></video>
+            <div class="overlay"></div>
+            <div class="text">
+                <h2>Never give up</h2>
+                <h3>Think differently</h3>
+                <p>I know everything that's going to happen, I know how things are going to happen, so try to make it different or more special.</p>
+                <a href="#">JOIN ME</a>
+            </div>
+
+            <ul class="social">
+                <li><a href="https://www.facebook.com/profile.php?id=100045406261491"><img src="./images/fb_icon-icons.com_65434.png" alt=""></a></li>
+                <li><a href="https://www.youtube.com/codingreshapefuture"><img src="./images/YOUTUBE_icon-icons.com_65487.png" alt=""></a></li>
+            </ul>
+        </section>
+
+
+        <script>
+            const menuToggle = document.querySelector('.toggle');
+            const showcase = document.querySelector('.showcase');
+
+            menuToggle.addEventListener('click', () => {
+                menuToggle.classList.toggle('active')
+                showcase.classList.toggle('active')
+            })
+        </script>
+    </body>
+</html>
